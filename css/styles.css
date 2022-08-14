@@ -1,7 +1,5 @@
 :root {
-    --primary-background-color: #F5F5F5;
     --secondary-background-color: #2F303A;
-    --header-background-color: #FFFFFF;
     --another-background-color: #F5F4FA;
     --button-background-focus: #188CE8;
     --accent-color: #2196F3;
@@ -15,18 +13,15 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    font-weight: 400;
+    letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
 }
 .list {
     list-style: none;
-    font-style: normal;
 }
 
 /* Хедер */
-.header {
-    background-color: var(--header-background-color);
-}
 .logo {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
@@ -42,6 +37,7 @@ body {
     text-decoration: none;
     font-weight: 500;
     line-height: 1.17;
+    letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
 .header-link-nav:hover, .header-link-nav:focus {
@@ -51,6 +47,7 @@ body {
     text-decoration: none;
     font-weight: 500;
     line-height: 1.17;
+    letter-spacing: 0.02em;
     color: var(--secondary-text-color);
 }
 .header-link-item:hover, .header-link-item:focus {
@@ -63,6 +60,9 @@ body {
 /* Футер */
 .footer {
     background-color: var(--secondary-background-color);
+}
+.address {
+    font-style: normal;
 }
 .logo-second-word {
     color: var(--primary-white-color);
@@ -85,9 +85,6 @@ body {
 }
 
 /* index.html */
-.main-content {
-    background-color: var(--primary-background-color);
-}
 .title {
     background-color: var(--secondary-background-color);
 }
@@ -96,6 +93,7 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    letter-spacing: 0.06em;
     color: var(--primary-white-color);
 }
 .hero-button {
@@ -104,6 +102,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+    letter-spacing: 0.06em;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
@@ -131,6 +130,7 @@ body {
 .subtitle {
     text-transform: uppercase;
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.17;
     color: var(--primary-text-color);
 }
@@ -160,8 +160,10 @@ body {
 .menu-button {
     border: none;
     font-weight: 500;
+    font-family: 'Roboto',sans-serif;
     font-size: 16px;
     line-height: 1.63;
+    letter-spacing: 0.03em;
     color: var(--primary-text-color);
     background-color: var(--another-background-color);
 }
@@ -173,6 +175,7 @@ body {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
     color: var(--primary-text-color);
 }
 .product-tag {
