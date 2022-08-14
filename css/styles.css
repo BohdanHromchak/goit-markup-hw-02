@@ -171,6 +171,9 @@ body {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
+.product-link {
+    text-decoration: none;
+}
 .product-name {
     font-weight: 700;
     font-size: 18px;
